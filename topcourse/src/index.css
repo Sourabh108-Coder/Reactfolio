@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-data{
+  background-color: rgb(89, 89, 120);
+  width:100vw;
+  text-align: center;
+  color:white;
+}
+
+.filt-data{
+  margin: auto;
+}
+
+.actual-buttons{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+
+
+.single-button{
+
+  padding:0.5rem;
+  border-radius: 2px;
+  background-color: black;
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  width:100px;
+  cursor:pointer;
+}
+
+.single-button:active{
+  color:white;
+  background-color: red;
+}
+
+.cards-container{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width:1080px;
+  /* margin:auto; */
+  margin-top: 2rem;
+  gap:1rem;
+}
+
+.single-card{
+  height:400px;;
+  width:300px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 3px solid yellow;
+  border-radius: 4px;
+
+  position: relative;
+}
+
+.img-data{
+  width:100%;
+  height:200px;
+}
+
+.likes{
+  position: absolute;
+  left:240px;
+  bottom:180px;
+}
+
+
+.liked-button{
+
+  width:50px;
+  height:50px;
+  border-radius: 40px;
+}
+
+.same-class{
+  height:30px;
+  width:30px;
+  cursor: pointer;
+}
+
+.para-head{
+  margin-left:1rem;
+}
