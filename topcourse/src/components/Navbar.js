@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <nav>
-        <h1>Top Courses</h1>
+        <h1>Top Courses  ( Search ~ Like )</h1>
       </nav>
     </div>
   )

@@ -6,12 +6,15 @@ import Cards from './components/Cards'
 import { filterData } from './data';
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
+import Loader from './components/Loader';
 
 function App() {
 
   const[fetchdata,setfetchdata]=useState([])
 
   const[category,setcategory]=useState(filterData[0].title)
+
+  const[loading,setloading]=useState(false);
 
   const ApiData= async()=>{
 
@@ -21,12 +24,14 @@ function App() {
       
       const format=  await fetching.json();
 
+      setloading(true);
+
       setfetchdata(format.data)
 
 
     } catch (error) {
-      toast.error("Error Occured");
-      console.log(error)
+      toast.error("Please Check Your Internet Connection");
+      console.log(error);
     }
   }
 
@@ -36,7 +41,10 @@ function App() {
 
 
   return (
-    <div className="App">
+  <div>
+    {
+      loading ? (
+         <div className="App">
 
       <div className='nav-data'>
       <Navbar></Navbar>
@@ -48,6 +56,9 @@ function App() {
       
       <Cards fetchdata={fetchdata} category={category}></Cards>
     </div>
+      ):(<Loader/>)
+    }
+  </div>
   );
 }
 

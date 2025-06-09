@@ -42,7 +42,7 @@ const Card = (props) => {
 
         <div className='para-head'>
             <h3>{coursedata.title}</h3>
-            <p>{desc}</p>
+            <p className='desc-para'>{desc}</p>
         </div>
     </div>
   )
