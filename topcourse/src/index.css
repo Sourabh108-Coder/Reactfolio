@@ -83,7 +83,7 @@ code {
   grid-template-columns: repeat(3,1fr);
   width: 100%;
   max-width: 1080px;       
-  /* margin:auto; */
+  margin:auto;
   margin: 2rem auto 0 auto;              
   gap: 1rem;
   padding: 0 1rem;                       
@@ -93,16 +93,18 @@ code {
 @media (max-width: 900px) {
   .cards-container {
     grid-template-columns: repeat(2, 1fr);
+    margin-left:1.3rem ;
   }
 }
 
 @media (max-width: 600px) {
   .cards-container {
     grid-template-columns: 1fr;
+    margin-left:1.3rem ;
   }
 }
 .single-card{
-  height:400px;;
+  height:400px;
   width:300px;
   font-family: 'Times New Roman', Times, serif;
   border: 3px solid yellow;
