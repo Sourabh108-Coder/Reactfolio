@@ -30,3 +30,27 @@
 
 
 **🛠️ Installation**
+   1. Clone the repo: git clone https://github.com/Sourabh108-Coder/Reactfolio.git
+
+   2. Navigate to the project folder:cd topcourse
+
+   3. Install dependencies:npm install
+
+   4. Start the development server: npm start
+
+
+
+**⚙️ How It Works**
+   1. The app fetches course data from an API. 🌐
+
+   2. Courses are displayed in cards. 🃏
+
+   3. Filter buttons update the displayed courses by category. 🔄
+
+   4. Users can like/unlike courses by clicking the heart icon ❤️.
+
+   5. Toast notifications show feedback when liking/unliking courses. 🥳
+
+
+
+
