@@ -90,7 +90,20 @@ topcourse/
 
 **📸 Screenshots**
 
+## Screen 1
+![Screen 1](screenshots/Screen_1.png)
 
+## Screen 2
+![Screen 2](screenshots/Screen_2.png)
+
+## Screen 3
+![Screen 3](screenshots/Screen_3.png)
+
+## Screen 4
+![Screen 4](screenshots/Mobile_Screen_1.jpeg)
+
+## Screen 5
+![Screen 5](screenshots/Mobile_Screen_2.jpeg)
 
 
 
