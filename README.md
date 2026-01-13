@@ -62,15 +62,53 @@ topcourse/
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.js
-│   │   ├── CourseCard.js
-│   │   └── FilterButtons.js
+│   │   ├── Card.js
+│   │   └── Cards.js
+|   |   └── Filter.js
+|   |   └── Loader.js
 │   │
 │   ├── App.js
 │   ├── index.js
-│   └── styles.css
+│   └── index.css
 │
 ├── package.json
 └── README.md
+
+
+
+**🖌️ Technologies Used**
+   1. React ⚛️
+
+   2. React Hooks (useState, useEffect) 🪝
+
+   3. CSS3 & Flex/Grid for responsive layouts 🎨
+
+   4. React Toastify for notifications 🍰
+
+   5. Axios or Fetch API for data fetching 🌐
+
+
+**📸 Screenshots**
+
+
+
+
+
+**💌 Feedback**
+*- If you enjoy this project, give it a ⭐!*
+*- For any suggestions, feel free to open an issue or submit a pull request.*
+
+
+
+**🎉 Enjoy exploring courses and have fun learning! 🌈**
+
+
+**Live Link** =>  https://reactfolio-gamma.vercel.app/
+
+
+
+**Author**
+*- Sourabh (https://github.com/Sourabh108-Coder/)*
 
 
 
