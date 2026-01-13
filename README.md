@@ -53,4 +53,26 @@
 
 
 
+**📦 Project Structure**
+topcourse/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── CourseCard.js
+│   │   └── FilterButtons.js
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── styles.css
+│
+├── package.json
+└── README.md
+
+
+
+
 
